@@ -1,0 +1,52 @@
+{
+    "name": "iOS Unified Budget",
+    "id": 42872,
+    "amount": 30000,
+    "currency": "€",
+    "pockets": [
+        {
+            "name": "Main",
+            "id": 3829,
+            "isMain": true,
+            "proportion": 0.4,
+            "campaigns": [
+                {
+                    "name": "Nike_iOS_PP_Product Add_Intent_Women's Expression_Alva and Vashti",
+                    "id": 87162
+                },
+                {
+                    "name": "Nike_iOS_FTB_RecentInstallers_7-30_Women's Expression_Alva and Vashti",
+                    "id": 87168
+                }
+            ]
+        },
+        {
+            "name": "Pocket 1",
+            "id": 3823,
+            "isMain": false,
+            "proportion": 0.2,
+            "campaigns": [
+                {
+                    "name": "Nike_iOS_Whales_Women's Expression_Alva and Vashti",
+                    "id": 87162
+                }
+            ]
+        },
+        {
+            "name": "Pocket 2",
+            "id": 3867,
+            "isMain": false,
+            "proportion": 0.4,
+            "campaigns": [
+                {
+                    "name": "Nike_iOS_FTB_Checkout Started_Women's Expression_Alva and Vashti",
+                    "id": 87155
+                },
+                {
+                    "name": "Nike_iOS_FTB_Product Add_7-30_Women's Expression_Alva and Vashti",
+                    "id": 87135
+                }
+            ]
+        }
+    ]
+}
