@@ -1,6 +1,17 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import { svelte } from '@sveltejs/vite-plugin-svelte'
 
+// export default defineConfig({
+// 	plugins: [sveltekit()]
+// });
+
+// https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [sveltekit()]
-});
+	plugins: [sveltekit()],
+	build: {
+	  outDir: './docs', // relative to index.html
+	  // emptyOutDir: true, // true if outDir is inside root. if outDir is not inside root, uncomment this.
+	}
+  })
+
