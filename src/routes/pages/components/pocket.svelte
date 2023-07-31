@@ -32,9 +32,9 @@
         </div>
         <button class="pocket__headerExpand" on:click={()=> expanded = !expanded}>
             {#if expanded}
-            <Collapse size="1.5em" />
+            <Collapse size="1.6em" />
             {:else}
-            <Expand size="1.5em" />
+            <Expand size="1.6em" />
             {/if}
         </button>
     </div>
